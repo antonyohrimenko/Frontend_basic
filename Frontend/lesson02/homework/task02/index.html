@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task02</title>
+</head>
+
+
+
+<body>
+
+
+
+    <!--  Задание 2 *
+Форму в примере кода 1 из урока сделать немножко более красивенькой:
+сделать внутри формы таблицу, 2 столбика, в первом столбике label, во втором сам input.
+-->
+
+    <h1>Тренировочная форма из урока 1</h1>
+    <!-- Наводим немного красоты по ТЗ -->
+
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="name">Введите Ваше имя:</label></td>
+                <td><input type="text" id="name" required /></td>
+            </tr>
+            <tr>
+                <td><label for="age">Введите Ваш возраст:</label></td>
+                <td><input type="number" id="age" placeholder="99" disabled /></td>
+            </tr>
+            <tr>
+                <td><label for="email">Введите Ваш email:</label></td>
+                <td><input type="email" id="email" value="mail@gmail.com" /></td>
+            </tr>
+            <tr>
+                <td><label for="password">Введите Ваш пароль:</label></td>
+                <td><input type="password" id="password" /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><textarea rows="15" cols="45"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="animals">Есть ли у вас домашние животные:</label></td>
+                <td><input type="checkbox" id="animals" /></td>
+            </tr>
+            <tr>
+                <td>Ваш пол:</td>
+                <td>
+                    <label for="male">M</label>
+                    <input type="radio" name="gender" id="male" />
+                    <label for="female">Ж</label>
+                    <input type="radio" name="gender" id="female" />
+                </td>
+            </tr>
+            <tr>
+                <td><label for="date">Выберите дату:</label></td>
+                <td><input type="date" id="date" disabled /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Отправить</button>
+                    <button type="reset">Очистить</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <!-- Красота как она есть :) -->
+
+</body>
+
+</html>

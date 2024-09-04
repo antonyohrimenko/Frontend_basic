@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task01</title>
+</head>
+
+<!-- Задание 1
+Сделать форму отправки на сайт Амазона запроса get, который должен вернуть 
+результаты поиска по ключевому слову введенному в поле input (или любое другое в принципе).
+-->
+
+<body>
+
+    <h1>Форма отправки запроса на Amazon.de</h1>
+
+    <form action="https://www.amazon.de/s" method="get">
+        <label for="search">Поиск товара:</label>
+        <input type="text" id="search" name="k" placeholder="Введите запрос..." required>
+        <br />
+        <br />
+        <button type="submit" aria-label="Отправить запрос на Amazon">Отправить</button>
+        <button type="reset" aria-label="Очистить поле ввода">Очистить</button>
+    </form>
+
+</body>
+
+</html>
