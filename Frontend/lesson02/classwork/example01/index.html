@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+
+    <!--
+     required - значит поле обязательно для заполнения
+     disabled - отключено
+     readonly - только для чтения
+     value=“значение” - уже предвведенное значение
+     placeholder=“значение” - подссказка на заднем фоне поля ввода
+     / аттрибуты тегов -->
+
+    <h1>Тренировочная форма</h1>
+    <form action="">
+        <label for="name">Введите Ваше имя:</label>
+        <input type="text" id="name" required />
+        <br />
+        <br />
+        <label for="age">Введите Ваш возраст:</label>
+        <input type="number" id="age" placeholder="99" disabled />
+        <br />
+        <br />
+        <label for="email">Введите Ваш email:</label>
+        <input type="email" id="email" value="mail@gmail.com" />
+        <br />
+        <br />
+        <label for="password">Введите Ваш пароль:</label>
+        <input type="password" id="password" />
+        <br />
+        <br />
+        <textarea rows="15" cols="45"></textarea>
+        <br />
+        <br />
+        <label for="animals">Есть ли у вас домашние животные:</label>
+        <input type="checkbox" id="animals" />
+        <br />
+        <br />
+        <p>Ваш пол:</p>
+        <label for="male">M</label>
+        <input type="radio" name="gender" id="male" />
+        <label for="female">Ж</label>
+        <input type="radio" name="gender" id="female" />
+        <br />
+        <br />
+        <input type="date" disabled />
+        <br />
+        <br />
+        <button type="submit">Отправить</button>
+        <button type="reset">Очистить</button>
+    </form>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
