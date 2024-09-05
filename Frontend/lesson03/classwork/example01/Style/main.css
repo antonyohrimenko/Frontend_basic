@@ -1,0 +1,52 @@
+* {
+    font-size: 18px;
+  }
+  
+  h1 {
+    /* background-color: blue !important; */
+    background-color: blue;
+    color: white;
+  }
+  
+  p {
+    background-color: bisque;
+  }
+  
+  #first-p {
+    background-color: aquamarine;
+  }
+  
+  #first-p:hover {
+    background-color: blueviolet;
+  }
+  
+  .redbg {
+    background-color: burlywood;
+  }
+  
+  .biggerfont {
+    font-size: 26px;
+  }
+  
+  #first-p a {
+    color: red;
+  }
+  
+  .first-div {
+      background-color: cadetblue;
+  }
+  
+  .inner-div {
+      background-color: aquamarine;
+      height: 100px;
+      width: 100px;
+  }
+  
+  .formatted-text {
+      color: grey;
+      font-style: italic;
+  }
+  
+  .special-color {
+      background-color: chocolate;
+  }  
