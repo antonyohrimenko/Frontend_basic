@@ -1,0 +1,46 @@
+/* Сброс стилей браузера до значения по умолчанию */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Стили для навигации, добавим просто белый цвет */
+.navi-template {
+    font-size: 24px;
+    color: white;
+}
+
+
+/* Стили для хедера */
+.header {
+    background-color: red;
+    height: 100px; 
+    text-align: center; /* Горизонтальное центрирование текста */
+    line-height: 100px; /* Вертикальное центрирование через line-height */
+}
+
+.main-title {
+    font-size: 24px; 
+    color: white; 
+}
+
+/* Стили для основного блока */
+.main-content {
+    background-color: blue;
+    font-size: 18px;
+    height: 300px; 
+    color: white;
+    text-align: center;
+    padding-top: 100px; 
+}
+
+/* Стили для футера */
+.footer {
+    background-color: green; 
+    font-size: 18px; 
+    height: 100px;
+    color: white; 
+    text-align: center;
+    line-height: 100px;
+}
