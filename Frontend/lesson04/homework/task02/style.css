@@ -1,0 +1,51 @@
+/* Сброс стандартных стилей браузера */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    height: auto;
+    top: 0;
+}
+
+.main {
+    background-color: hsl(0, 0%, 0%);
+    width: auto;
+    padding: 10px;
+    /* 10px отступа, чтобы main был шире кнопки */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Центрирование по вертикали и горизонтали */
+
+}
+
+
+.footer {
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    height: auto;
+    top: 0;
+}
+
+/* Стилизуем кнопочку */
+.cta-button {
+    font-size: 24px;
+    background-color: #447af7;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* Чисто поиграться */
+.cta-button:hover {
+    background-color: #0753eb;
+} 

@@ -1,0 +1,57 @@
+/* Сброс стандартных стилей браузера */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Устанавливаем высоту страницы */
+html,
+body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    /* Отключение скроллов */
+
+}
+
+.header {
+    background-color: #A1705B;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    /* Центрируем текст по горизонтали */
+    color: white;
+    font-size: 24px;
+    line-height: 150px;
+    /* Вертикальное выравнивание */
+    position: absolute;
+    top: 0;
+}
+
+.main {
+    background-color: #B294BF;
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: calc(100vh - 340px);
+    /* 340 тк есть два отступа по 20 далее */
+    margin: 20px 0;
+    position: absolute;
+    top: 150px;
+    bottom: 150px;
+}
+
+.footer {
+    background-color: #A1705B;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    line-height: 150px;
+    position: absolute;
+    bottom: 0;
+}

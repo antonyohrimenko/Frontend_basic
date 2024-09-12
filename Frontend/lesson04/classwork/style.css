@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 50px;
+}
+
+.inner {
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.inner2 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin-top: 10px;
+}
+
+.external {
+    background-color: brown;
+    width: 250px;
+
+    padding: 10px;
+    border: dashed 10px black;
+    /* border-color: black;
+    border-width: 10px;
+    border-style: dashed;
+     */
+
+    /* padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px; */
+
+    /* для всех 4 */
+    /* padding: 10px 10px; */
+    /* 1 - для верха и низа
+    2 - для левой и правой стороны */
+
+    /* padding: 10px 10px 10px; */
+    /* 1 - для верха
+    2 - для левой и правой стороны
+    3 - для низа */
+
+    /* padding: 10px 10px 10px 10px; */
+    /* по часовой стрелке - верх право низ лево */
+}
