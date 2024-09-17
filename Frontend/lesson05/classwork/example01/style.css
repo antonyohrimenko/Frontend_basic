@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+}
+
+/* .red {
+    background-color: red;
+    position: relative;
+    left: 125px;
+    bottom: 50px;
+} */
+
+/* делаем фиксед, чтобы при прокрутке он стоял как вкопаный */
+
+.yellow {
+    background-color: yellow;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+.red {
+    background-color: red;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+
+}
+
+.blue {
+    background-color: blue;
+
+}
+
+.parent {
+    background-color: gray;
+    margin: 50px;
+    position: relative;
+
+}
+
+.header {
+    background-color: aquamarine;
+    position: sticky;
+    top: 0;
+    margin-top: 50px;
+    height: 50px;
+    z-index: 20;
+}

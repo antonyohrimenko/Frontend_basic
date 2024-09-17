@@ -1,0 +1,28 @@
+.block_img {
+    height: 400px;
+    background-color: blanchedalmond;
+    background-image: url(./images/kitty_s.png);
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 25%;
+}
+
+.red {
+    background-image: url(./images/kitty.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 100%;
+    position: relative;
+   
+}
+
+.red::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    height: 15px;
+    background-color: blue;
+    
+}
