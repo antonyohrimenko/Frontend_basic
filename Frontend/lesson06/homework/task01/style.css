@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.block {
+    flex: 1;
+    /* растягиваем на всю ширину какой бы не был экран */
+}
+
+.block_red {
+    background-color: red;
+}
+
+.block_green {
+    background-color: green;
+}
+
+.block_blue {
+    background-color: blue;
+}
+
+.block_yellow {
+    background-color: yellow;
+}
+
+.block_black {
+    background-color: black;
+}

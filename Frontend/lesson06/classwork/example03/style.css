@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 120px;
+    background-color: lightgray;
+    /* gap: 50px; */
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.red {
+    flex-grow: 5;
+    /* flex-basis: calc(100% / 3); */
+    background-color: rgb(255, 0, 89);
+}
+
+.yellow {
+    /* flex-basis: calc(100% / 3); */
+    flex-grow: 1;
+    background-color: rgb(196, 255, 2);
+}
+
+.green {
+    /* flex-basis: calc(100% / 3); */
+    flex-grow: 1;
+    background-color: rgb(0, 128, 21);
+}
