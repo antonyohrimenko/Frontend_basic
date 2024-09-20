@@ -62,13 +62,18 @@ body {
 
 .details p {
     font-size: 14px;
+    /* Базовый размер шрифта */
     color: white;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
-    /* Обрезалка строк webkit */
+    /* Ограничение на 3 строки */
     line-clamp: 3;
+    white-space: normal;
+    /* Текст переносится на новую строку */
+    text-overflow: ellipsis;
+    /* Добавляем многоточие, если текст не вмещается */
 }
 
 .details h2 {
@@ -95,28 +100,24 @@ body {
     border-radius: 4px;
 }
 
+/* Уменьшаем шрифт на более широких экранах, чтобы помещалось больше текста */
 @media (min-width: 1000px) {
     .details p {
-        -webkit-line-clamp: 5;
-        /* Обрезать после 5 строк */
-        line-clamp: 5;
-        font-size: 16px;
-        /* Увеличение шрифта на более широких карточках */
+        font-size: 12px;
+        /* Меньший шрифт на широких экранах */
     }
 }
 
 @media (min-width: 800px) and (max-width: 999px) {
     .details p {
-        -webkit-line-clamp: 4;
-        /* Обрезать после 4 строк */
-        line-clamp: 4;
+        font-size: 13px;
+        /* Промежуточный размер шрифта для средних экранов */
     }
 }
 
 @media (max-width: 799px) {
     .details p {
-        -webkit-line-clamp: 3;
-        /* Обрезать после 3 строк */
-        line-clamp: 3;
+        font-size: 14px;
+        /* Базовый размер шрифта для узких экранов */
     }
 }
