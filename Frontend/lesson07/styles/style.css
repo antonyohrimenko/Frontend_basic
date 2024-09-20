@@ -62,7 +62,6 @@ body {
 
 .details p {
     font-size: 14px;
-    /* Базовый размер шрифта */
     color: white;
     overflow: hidden;
     display: -webkit-box;
@@ -100,24 +99,21 @@ body {
     border-radius: 4px;
 }
 
-/* Уменьшаем шрифт на более широких экранах, чтобы помещалось больше текста */
+/* Играемся шрифтом на разных экранах, чтобы помещалось больше текста */
 @media (min-width: 1000px) {
     .details p {
         font-size: 12px;
-        /* Меньший шрифт на широких экранах */
     }
 }
 
 @media (min-width: 800px) and (max-width: 999px) {
     .details p {
         font-size: 13px;
-        /* Промежуточный размер шрифта для средних экранов */
     }
 }
 
 @media (max-width: 799px) {
     .details p {
         font-size: 14px;
-        /* Базовый размер шрифта для узких экранов */
     }
 }
