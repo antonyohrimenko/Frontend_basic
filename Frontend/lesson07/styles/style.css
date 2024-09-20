@@ -60,6 +60,17 @@ body {
     flex-direction: column;
 }
 
+.details p {
+    font-size: 14px;
+    color: white;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    /* Обрезалка строк webkit */
+    line-clamp: 3;
+}
+
 .details h2 {
     font-size: 24px;
     color: white;
@@ -70,11 +81,6 @@ body {
     font-size: 20px;
     color: yellow;
     margin-bottom: 10px;
-}
-
-.details p {
-    font-size: 14px;
-    color: white;
 }
 
 .tag {
@@ -89,21 +95,28 @@ body {
     border-radius: 4px;
 }
 
-/* Резиновая верстка */
-@media (max-width: 1000px) {
-    .card {
-        flex: 1 1 calc(33.33% - 20px);
+@media (min-width: 1000px) {
+    .details p {
+        -webkit-line-clamp: 5;
+        /* Обрезать после 5 строк */
+        line-clamp: 5;
+        font-size: 16px;
+        /* Увеличение шрифта на более широких карточках */
     }
 }
 
-@media (max-width: 800px) {
-    .card {
-        flex: 1 1 calc(50% - 20px);
+@media (min-width: 800px) and (max-width: 999px) {
+    .details p {
+        -webkit-line-clamp: 4;
+        /* Обрезать после 4 строк */
+        line-clamp: 4;
     }
 }
 
-@media (max-width: 600px) {
-    .card {
-        flex: 1 1 100%;
+@media (max-width: 799px) {
+    .details p {
+        -webkit-line-clamp: 3;
+        /* Обрезать после 3 строк */
+        line-clamp: 3;
     }
 }
