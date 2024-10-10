@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>To do list</title>
+</head>
+
+<body>
+    <h1>Death list 🥷</h1>
+    <!-- интерактивная форма с указанием id -->
+    <div class="content">
+        <button id="clear" class="btn-clear" type="button">Clear list</button>
+        <form id="form">
+            <input type="text" placeholder="nickname" name="nickname" required />
+            <input type="text" placeholder="location" name="location" required />
+            <!-- кнопке в форме не нужен id, если указать тип submit -->
+            <!-- важно чтобы кнопка лежала внутри тегов form -->
+            <button type="submit">Add person</button>
+        </form>
+    </div>
+
+    <ol id="person-list"></ol>
+</body>
+
+</html>

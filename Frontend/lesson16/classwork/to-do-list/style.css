@@ -1,0 +1,20 @@
+li {
+    /* убираю точку у элемента li */
+    cursor: pointer;
+}
+
+li:hover {
+    color: rgb(225, 42, 42);
+}
+
+.btn-container {
+    margin-top: 5px;
+}
+
+.content {
+    display: flex;
+}
+
+.btn-clear {
+    margin-right: 3px;
+}
