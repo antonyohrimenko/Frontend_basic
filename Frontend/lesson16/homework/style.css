@@ -1,0 +1,55 @@
+li {
+    word-wrap: break-word;
+    white-space: normal;
+    max-width: 400px;
+    cursor: pointer;
+    font-family: 'monaco';
+    text-decoration: none;
+}
+
+/* Стиль для правильного перечеркивания */
+li.completed {
+    text-decoration: line-through;
+    color: red;
+}
+
+li:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: line-through; /* Перечеркивание текста при наведении */
+    cursor: pointer; /* Указатель меняется на "руку" для интерактивности */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+}
+
+.btn-special {
+    background-color: #a9f8c2;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.btn-special:hover {
+    background-color: #8ff2b2;
+}
+
+.input-box {
+    width: 350px;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+.btn-clear {
+    margin-right: 3px;
+}
