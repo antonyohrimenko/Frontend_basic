@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .filmCard {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 20px 60px 20px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    background-color: rgb(233, 233, 233);
+    border: 2px solid darkgoldenrod;
+  }
+  
+  .filmCard > img {
+    width: 60%;
+  }
+  
