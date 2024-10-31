@@ -103,6 +103,13 @@ body{
     text-transform: capitalize;
 }
 
+.weather-box .city-name{
+    color: #06283D;
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
 .weather-details{
     width: 100%;
     display: flex;

@@ -4,6 +4,8 @@ const weatherBox = document.querySelector('.weather-box');
 const weatherDetails = document.querySelector('.weather-details');
 const error404 = document.querySelector('.not-found');
 const inputField = document.querySelector('.search-box input');
+const cityName = document.querySelector('.weather-box .city-name'); 
+
 
 searchButton.addEventListener('click', () => {
     // взял токен из кабинета openweather
@@ -59,6 +61,7 @@ searchButton.addEventListener('click', () => {
             }
 
             temperature.innerHTML = `${parseInt(json.main.temp)}<span>°C</span>`;
+            cityName.textContent = json.name;
             description.textContent = json.weather[0].description;
             humidity.textContent = `${json.main.humidity}%`;
             wind.textContent = `${parseInt(json.wind.speed)} Km/h`;
